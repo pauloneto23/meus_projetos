@@ -1,0 +1,102 @@
+body, html,.capa{
+
+	height: 100%;
+}
+
+
+body{
+	
+	background: url('img/classroom.jpg') no-repeat ;
+	background-size: 100% ;
+	background-attachment: fixed;
+	font-family: Helvetica,Arial,sans-senrif;
+
+}
+
+.navbar-inverse .navbar-brand{
+
+	color: #fff;
+}
+
+nav.navbar-transparente{
+	 border: none;
+		padding: 15px 0px;
+	background: rgba(251,86,6,0.9);
+	
+}
+.navbar-inverse .navbar-nav>li>a {
+
+	color:white;
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+
+	color:rgb(0,255,255);
+	text-transform: uppercase;
+}
+ 
+
+.ca {
+   margin-top: 40px;
+}
+
+.capa{
+		display: table;
+	width: 100%;
+}
+.texto-capa{
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+.btn-custom{
+	color: white;
+	border-radius: 500px;
+	padding: 10px 35px;
+	margin: 15px;
+	text-transform: uppercase;
+	transition: 0.4s, color 0.4s;
+}
+.btn-roxo{
+   background: rgba(251,86,6,0.9);
+}
+.btn-roxo:hover{
+   background-color: rgb(251,86,0);
+   color: white;
+}
+.btn-branco{
+	border: 2px solid white;
+
+}
+.btn-branco:hover{
+background-color: white;
+color: #000;
+
+}
+.btn-submit{
+   background: rgba(251,86,6,0.9);
+   border: none;
+}
+
+#titulo1 h1{
+	font-size: 100px;
+	font-weight: 1000;
+	letter-spacing: -3px;
+	margin-bottom: 50px;
+}
+h1, h3, label{
+	color: white;
+}
+th{
+	text-transform: uppercase;
+	color:#fff;
+}
+.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
+    background-color: rgba(251,86,6,0.8);;
+}
+
+
+td{
+  color:#fff;
+  padding-bottom:-12px;
+}
